@@ -7,6 +7,7 @@ This library was made to train and test machine learning models that can accurat
   * [What is a Personal Loan?](#what-is-a-personal-loan)
   * [Why Do People Get Personal Loans?](#why-do-people-get-personal-loans)
   * [What is Lending Club?](#what-is-lending-club)
+  * [Why Invest?](#why-invest)
   * [My History](#personal-history)
 * [Data Sources](#data-sources)
   * [Lending Club]
@@ -31,7 +32,11 @@ Converting high-interest debt into low(er)-interest debt can significantly reduc
 
 ### What is Lending Club?
 
+Lending Club offers personal loans up to $40,000. However, instead of funding the loans themselves (like an investment bank), these loans are crowd-funded by investors. Investors who fund a loan earn money on the payments that come in, in proportion to what percentage of the loan that investor funded. This is often referred to as "peer-to-peer" lending.
 
+### Why Invest?
+
+These personal loans from Lending Club are a relatively new asset class available for private citizens to invest in. They potentially offer returns similar to traditional investments while offering lower portfolio volatility. Additionally, investors often feel better knowing their money is going to help someone get out of debt. This is in contrast to the impersonal nature of the stock market. 
 
 ### Personal History
 
@@ -44,9 +49,6 @@ Eventually though returns dropped to the point where they no longer seemed like 
 **insert ROI chart here**
 
 This repository is my attempt at using machine learning in order to remedy that situation. The goal is to create a model that will accurately predict a loan's future ROI in order to avoid poorly-performing loans and choose the more profitable options. 
-
-## Motivation
-Consumer loans are a relatively new asset class available for private citizens to invest in. They potentially offer returns similar to traditional investments while offering lower portfolio volatility. However, a significant number of consumer loans are defaulted on by the borrowers. A significant amount of capital can be lost to defaults if a portfolio invests in loans based off of poor criteria. The goal of this project is to construct a model to predict the ROI of a loan in order to determine if it would be a good investment. Once a model is built it can be run through a portfolio simulation of historical loan payment data to analyze how the model's strategy would have performed.
 
 
 ## Data Sources
